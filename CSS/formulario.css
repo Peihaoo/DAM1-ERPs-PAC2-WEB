@@ -1,0 +1,171 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== General ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #e60000;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 8px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* ===== header ===== */
+.header {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  color: #e60000;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* ===== Formulario ===== */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario {
+  width: 100%;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.campo {
+  width: 48%;
+  text-align: left;
+}
+
+.campo.largo {
+  width: 100%;
+}
+
+.campo label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.campo input,
+.campo select {
+  width: 100%;
+  padding: 8px 5px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+}
+
+.campo input:focus,
+.campo select:focus {
+  border-bottom: 2px solid #e60000;
+}
+
+.check {
+  align-items: center;
+  text-align: left;
+}
+
+.check input {
+  margin-right: 10px;
+}
+
+.legal {
+  font-size: 0.85rem;
+  color: #666;
+  text-align: justify;
+  margin: 15px 0 25px;
+}
+
+.legal a {
+  color: #e60000;
+  text-decoration: none;
+}
+
+.legal a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Botón ===== */
+.boton-enviar {
+  background-color: #f47b20;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 25px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.boton-enviar:hover {
+  background-color: #d96c1c;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}

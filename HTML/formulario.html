@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta gratuita - Oracle NetSuite ERP</title>
+  <link rel="stylesheet" href="./../CSS/formulario.css">
+</head>
+<body>
+  <!-- ======= Header ======= -->
+  <header>
+    <div class="logo">Oracle NetSuite ERP</div>
+    <nav>
+      <a href="./../index.html">Home</a>
+      <a href="./modulos.html">Módulos</a>
+      <a href="./precios.html">Precios</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="header">
+    <h1>Programa una consulta gratuita</h1>
+    <p>Completa el formulario y un especialista se pondrá en contacto contigo para ofrecerte una demostración adaptada a las necesidades de tu empresa.</p>
+  </section>
+
+  <main>
+    <form class="formulario">
+      <div class="fila">
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo">
+          <label for="pais">País</label>
+          <select id="pais" name="pais">
+            <option value="España">España</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Francia">Francia?</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="empresa">Empresa</label>
+          <input type="text" id="empresa" name="empresa">
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo">
+          <label for="tipo">Tipo de negocio</label>
+          <select id="tipo" name="tipo">
+            <option value="">Selecciona una opción</option>
+            <option value="manufactura">Manufactura</option>
+            <option value="servicios">Servicios</option>
+            <option value="retail">Retail</option>
+            <option value="software">Software</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="ingresos">Ingresos anuales</label>
+          <select id="ingresos" name="ingresos">
+            <option value="">Selecciona una opción</option>
+            <option value="1-5M">1M - 5M €</option>
+            <option value="5-10M">5M - 10M €</option>
+            <option value="+10M">Más de 10M €</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo largo">
+          <label for="referencia">¿Cómo has sabido de nosotros?</label>
+          <select id="referencia" name="referencia">
+            <option value="">Selecciona una opción</option>
+            <option value="buscador">Buscador web</option>
+            <option value="redes">Redes sociales</option>
+            <option value="recomendacion">Recomendación</option>
+            <option value="publicidad">Publicidad</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fila check">
+        <input type="checkbox" id="marketing" name="marketing">
+        <label for="marketing">Sí, quiero recibir comunicaciones de marketing sobre productos, servicios y eventos de Oracle.</label>
+      </div>
+
+      <p class="legal">
+        Al rellenar y enviar este formulario, reconoce y acepta que el uso del sitio web de Oracle está sujeto a las 
+        <a href="#">Condiciones de uso de Oracle.com</a>. En la 
+        <a href="#">Política de privacidad de Oracle</a> encontrará información adicional sobre el uso de sus datos personales.
+      </p>
+
+      <button type="submit" class="boton-enviar">Solicitar consulta sin cargo</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Oracle NetSuite ERP | Pokelluís y Peihao | Proyecto escolar</p>
+  </footer>
+</body>
+</html>
