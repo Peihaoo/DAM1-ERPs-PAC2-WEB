@@ -1,95 +1,95 @@
-/* ===== Reset ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== General ===== */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fafafa;
   color: #333;
   line-height: 1.6;
   text-align: center;
 }
 
-/* ===== Header ===== */
 header {
-  background-color: #e60000; /* color corporativo Oracle */
-  color: white;
+  background-color: #e60000; 
   padding: 15px 0;
+  color: white;
 }
 
 .logo {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 nav {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 12px;
-  padding: 6px 14px;
+  margin: 0 10px;
+  padding: 6px 12px;
   border-radius: 4px;
   transition: background 0.3s;
 }
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.active {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .header {
   background-color: #fff;
   padding: 60px 20px;
-  border-bottom: 2px solid #eee;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header h1 {
-  color: #e60000;
   font-size: 2rem;
-  margin-bottom: 15px;
+  color: #e60000;
+  margin-bottom: 10px;
 }
 
 .header p {
-  max-width: 750px;
+  max-width: 700px;
   margin: 0 auto;
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: #555;
 }
 
-.seccion {
-  padding: 50px 20px;
+.resumen {
+  padding: 40px 20px;
 }
 
-.seccion h2 {
+.resumen h2 {
   font-size: 1.8rem;
   color: #e60000;
   margin-bottom: 10px;
 }
 
 .subtexto {
-  color: #555;
+  color: #666;
   max-width: 700px;
   margin: 0 auto 40px;
-  font-size: 1rem;
 }
 
-/* ===== tarjetas Grid ===== */
-.seccion-grid {
+.resumen h3 {
+  color: #111;
+  margin: 40px 0 20px;
+  font-size: 1.3rem;
+}
+
+/*Tarjetas*/
+.resumen-grid {
   width: 90%;
   margin: 0 auto 40px;
+  display: inline-block;
 }
 
 .tarjeta {
+  
   width: 22%;
   min-width: 200px;
   display: inline-block;
@@ -130,50 +130,10 @@ nav a:hover {
   line-height: 1.4;
 }
 
-
-/* ===== CTA Section ===== */
-.presupuestoPersonalizado {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 40px 20px;
-  width: 80%;
-  margin: 40px auto;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.presupuestoPersonalizado h3 {
-  color: #e60000;
-  font-size: 1.4rem;
-  margin-bottom: 10px;
-}
-
-.presupuestoPersonalizado p {
-  color: #444;
-  max-width: 650px;
-  margin: 0 auto 25px;
-}
-
-.presupuesto-button {
-  display: inline-block;
-  background-color: #e60000;
-  color: white;
-  text-decoration: none;
-  padding: 12px 28px;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.cta-button:hover {
-  background-color: #b80000;
-}
-
-/* ===== Footer ===== */
 footer {
   background-color: #111;
   color: white;
   padding: 15px;
   font-size: 0.9rem;
-  margin-top: 50px;
+  margin-top: 40px;
 }
