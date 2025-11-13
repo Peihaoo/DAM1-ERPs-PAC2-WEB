@@ -89,6 +89,7 @@ nav a:hover {
 }
 
 .tarjeta {
+  
   width: 22%;
   min-width: 200px;
   display: inline-block;
@@ -99,8 +100,12 @@ nav a:hover {
   padding: 15px;
   margin: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  padding: 25px 15px;
+  text-align: center;
+  min-height: 230px; 
+  overflow: hidden; 
 }
-
 .tarjeta:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -115,13 +120,14 @@ nav a:hover {
 
 .tarjeta h4 {
   color: #e60000;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   font-size: 1.1rem;
 }
 
 .tarjeta p {
   font-size: 0.95rem;
   color: #555;
+  line-height: 1.4;
 }
 
 footer {
